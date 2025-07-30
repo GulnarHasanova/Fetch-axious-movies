@@ -4,6 +4,7 @@ axios.get("https://api.tvmaze.com/shows")
   .then(response => {
     const data = response.data;
     console.log(data[0].name)
+       console.log(data[1].name)
     
 
     data.forEach((show, i) => {
